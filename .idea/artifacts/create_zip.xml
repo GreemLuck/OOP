@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="create_zip">
+    <output-path>$PROJECT_DIR$/out/artifacts/create_zip</output-path>
+    <root id="root">
+      <element id="module-source" name="OOP_19" />
+    </root>
+  </artifact>
+</component>

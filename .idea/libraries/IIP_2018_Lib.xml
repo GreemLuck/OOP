@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IIP_2018_Lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/IIP_2018_Lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
