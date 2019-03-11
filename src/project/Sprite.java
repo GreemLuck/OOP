@@ -17,25 +17,10 @@ public class Sprite implements Paintable {
     // CONSTRUCTOR
     //////////////////////////////////////////////////////////////////////
 
-    private Sprite(Image img, int x, int y){
+    public Sprite(Image img, int x, int y){
         this.x = x;
         this.y = y;
         this.img = img;
-    }
-
-    public static Sprite makeBigChungus(int x, int y){
-        Image img = new ImageIcon(Tester.class.getResource("/chungus.jpg")).getImage();
-        return new Sprite(img, x, y);
-    }
-
-    public static Sprite makeMatt(int x, int y){
-        Image img = new ImageIcon(Tester.class.getResource("/matt.jpg")).getImage();
-        return new Sprite(img, x, y);
-    }
-
-    public static Sprite makeShaggy(int x, int y){
-        Image img = new ImageIcon(Tester.class.getResource("/shaggy.png")).getImage();
-        return new Sprite(img, x, y);
     }
 
     //////////////////////////////////////////////////////////////////////
