@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.image.ImageObserver;
 
-public class Sprite implements Paintable {
+abstract class Sprite implements Paintable, Movable {
 
     private int x;
     private int y;
@@ -20,7 +20,7 @@ public class Sprite implements Paintable {
     public Sprite(Image img, int x, int y){
         this.x = x;
         this.y = y;
-        this.img = img;
+        this.img = img.getScaledInstance(50,50,1);
     }
 
     //////////////////////////////////////////////////////////////////////
@@ -29,6 +29,11 @@ public class Sprite implements Paintable {
     @Override
     public void paint(Painting painting){
         painting.drawImage(img, x, y);
+    }
+
+    public void move(int dx, int dy){
+        x += dx;
+        y += dy;
     }
 
     //////////////////////////////////////////////////////////////////////
@@ -58,4 +63,5 @@ public class Sprite implements Paintable {
     public void setY(int y){
         this.y = y;
     }
+
 }

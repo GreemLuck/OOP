@@ -13,6 +13,11 @@ public class Tester extends Animation {
         new Tester().launch(true);
     }
 
+    Enemy enemy;
+    Player player = new Player();
+    ShotPlayer shot_p;
+    ShotEnemy shot_e;
+
     @Override
     public void init() {
         super.init();
@@ -26,20 +31,18 @@ public class Tester extends Animation {
 //        System.out.println(sprite.getX());
 //        System.out.println(sprite.getWidth());
 
-        SpriteList sprites = new SpriteList();
-
-        Sprite chungus = Sprite.makeBigChungus(0,0);
-        Sprite shaggy = Sprite.makeShaggy(50,50);
-        Sprite matt = Sprite.makeMatt(-100,-20);
-        Sprite chungu2 = Sprite.makeBigChungus(10, 200);
-
-        sprites.add(matt);
-        sprites.add(chungus);
-        sprites.add(chungu2);
-        sprites.add(shaggy);
-
-        for(int i = 0; i<sprites.getSize(); i++){
-            add(sprites.get(i));
-        }
+        add(enemy = new Enemy(100, 100));
+        add(player);
+        add(shot_p = new ShotPlayer(300, 250));
+        add(shot_e = new ShotEnemy(20, 30));
     }
+
+    @Override
+    public void step(){
+        enemy.move(-1,-1);
+        player.move(1,0);
+        shot_e.move(0,-1);
+        shot_p.move(0, 1);
+    }
+
 }

@@ -7,9 +7,9 @@ public class Player extends Actor{
 
     public int score;
 
-    static Image player_img;
-    static int starting_x;
-    static int starting_y;
+    static Image player_img = new ImageIcon(Player.class.getResource("/player.png")).getImage();
+    static int starting_x = 150;
+    static int starting_y = 200;
 
     public Player(){
         super(player_img, starting_x, starting_y);
