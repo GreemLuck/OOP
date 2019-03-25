@@ -7,28 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f84bf2f6-b68a-4aff-a3b3-04800198dc39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/project/Killable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/ShotEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/ShotPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Aquatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Dolphin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Lactating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Moultable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Ovipar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Oviparus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Platypus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Sprite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Tester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices/exo_2/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices/exo_2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices/exo_2/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices/exo_2/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices/exo_3/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices/exo_3/ElectricCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_3/exercices/exo_3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Shot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Shot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/series/series_3/exercices.zip" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,21 +30,23 @@
     <session id="686217904">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="JAVA/project" value="1" />
           <entry key="class" value="6" />
+          <entry key="exo_2" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="61" />
+          <entry key="java" value="74" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
@@ -64,17 +55,18 @@
           <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="74" />
+          <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9048" />
+          <entry key="java" value="10388" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9048" />
+          <entry key="JAVA" value="10388" />
         </counts>
       </usages-collector>
     </session>
@@ -82,103 +74,222 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Oviparus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="34">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Movable.java">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Mammal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Lactating.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Shot.java">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Ovipar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/OOP_2019_lib.jar!/oop/lib/Animation.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/Sprite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project/Tester.java">
+        <entry file="uml://JAVA/series.series_5.exercices.exo_2">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>series.series_5.exercices.exo_2</OriginalElement>
+              <nodes>
+                <node x="224.85984848484847" y="337.0">series.series_5.exercices.exo_2.Platypus</node>
+                <node x="0.0" y="224.5">series.series_5.exercices.exo_2.Aquatic</node>
+                <node x="538.2234848484849" y="348.0">series.series_5.exercices.exo_2.Snake</node>
+                <node x="279.7234848484849" y="0.0">series.series_5.exercices.exo_2.Animal</node>
+                <node x="422.07575757575756" y="224.5">series.series_5.exercices.exo_2.Moultable</node>
+                <node x="605.5757575757575" y="56.0">series.series_5.exercices.exo_2.Ovipar</node>
+                <node x="151.0" y="213.0">series.series_5.exercices.exo_2.Mammal</node>
+                <node x="127.72348484848487" y="56.0">series.series_5.exercices.exo_2.Lactating</node>
+                <node x="7.109848484848499" y="348.0">series.series_5.exercices.exo_2.Dolphin</node>
+                <node x="577.0757575757575" y="213.0">series.series_5.exercices.exo_2.Oviparus</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="series.series_5.exercices.exo_2.Platypus" target="series.series_5.exercices.exo_2.Mammal">
+                  <point x="0.0" y="-81.0" />
+                  <point x="322.8598484848485" y="317.0" />
+                  <point x="300.25" y="317.0" />
+                  <point x="49.75" y="37.0" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Platypus" target="series.series_5.exercices.exo_2.Ovipar">
+                  <point x="65.33333333333331" y="-81.0" />
+                  <point x="388.19318181818176" y="317.0" />
+                  <point x="411.57575757575756" y="317.0" />
+                  <point x="411.57575757575756" y="193.0" />
+                  <point x="645.5757575757575" y="193.0" />
+                  <point x="-40.0" y="25.5" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Dolphin" target="series.series_5.exercices.exo_2.Mammal">
+                  <point x="48.25" y="-70.0" />
+                  <point x="151.8598484848485" y="317.0" />
+                  <point x="200.75" y="317.0" />
+                  <point x="-49.75" y="37.0" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Snake" target="series.series_5.exercices.exo_2.Oviparus">
+                  <point x="45.5" y="-70.0" />
+                  <point x="674.7234848484849" y="317.0" />
+                  <point x="676.0757575757575" y="317.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Oviparus" target="series.series_5.exercices.exo_2.Animal">
+                  <point x="-49.5" y="-37.0" />
+                  <point x="626.5757575757575" y="183.0" />
+                  <point x="421.4734848484849" y="183.0" />
+                  <point x="47.25" y="81.5" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Platypus" target="series.series_5.exercices.exo_2.Aquatic">
+                  <point x="-65.33333333333331" y="-81.0" />
+                  <point x="257.5265151515151" y="307.0" />
+                  <point x="98.25" y="307.0" />
+                  <point x="32.75" y="25.5" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Dolphin" target="series.series_5.exercices.exo_2.Aquatic">
+                  <point x="-48.25" y="-70.0" />
+                  <point x="55.3598484848485" y="317.0" />
+                  <point x="32.75" y="317.0" />
+                  <point x="-32.75" y="25.5" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Mammal" target="series.series_5.exercices.exo_2.Lactating">
+                  <point x="-49.75" y="-37.0" />
+                  <point x="200.75" y="193.0" />
+                  <point x="193.72348484848487" y="193.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Snake" target="series.series_5.exercices.exo_2.Moultable">
+                  <point x="-45.5" y="-70.0" />
+                  <point x="583.7234848484849" y="317.0" />
+                  <point x="489.57575757575756" y="317.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Oviparus" target="series.series_5.exercices.exo_2.Ovipar">
+                  <point x="49.5" y="-37.0" />
+                  <point x="40.0" y="25.5" />
+                </edge>
+                <edge source="series.series_5.exercices.exo_2.Mammal" target="series.series_5.exercices.exo_2.Animal">
+                  <point x="49.75" y="-37.0" />
+                  <point x="300.25" y="193.0" />
+                  <point x="326.9734848484849" y="193.0" />
+                  <point x="-47.25" y="81.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="14.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Platypus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="476">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/ShotPlayer.java">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Aquatic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="51">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Dolphin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project/ShotEnemy.java">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Moultable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.629/Spots.java">
+        <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,9 +340,19 @@
         <option value="$PROJECT_DIR$/src/project/Sprite.java" />
         <option value="$PROJECT_DIR$/src/project/Player.java" />
         <option value="$PROJECT_DIR$/src/project/Shot.java" />
-        <option value="$PROJECT_DIR$/src/project/ShotPlayer.java" />
         <option value="$PROJECT_DIR$/src/project/ShotEnemy.java" />
         <option value="$PROJECT_DIR$/src/project/Tester.java" />
+        <option value="$PROJECT_DIR$/src/project/ShotPlayer.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Animal.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Lactating.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Mammal.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Ovipar.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Oviparus.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Moultable.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Snake.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Aquatic.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Dolphin.java" />
+        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Platypus.java" />
       </list>
     </option>
   </component>
@@ -255,8 +376,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,14 +417,15 @@
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="series" type="462c0819:PsiDirectoryNode" />
-              <item name="series_1" type="462c0819:PsiDirectoryNode" />
+              <item name="series_5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="series" type="462c0819:PsiDirectoryNode" />
-              <item name="series_3" type="462c0819:PsiDirectoryNode" />
+              <item name="series_5" type="462c0819:PsiDirectoryNode" />
+              <item name="exo_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
@@ -318,8 +440,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552938365356" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/OOP_2019_lib.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553529207119" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -461,19 +583,19 @@
       <workItem from="1551792702359" duration="5810000" />
       <workItem from="1552328337692" duration="7353000" />
       <workItem from="1552396635280" duration="1425000" />
-      <workItem from="1552924826374" duration="7376000" />
+      <workItem from="1552924826374" duration="8518000" />
+      <workItem from="1553525472268" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46425000" />
+    <option name="totallyTimeSpent" value="51259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17289348" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.17408586" />
+      <window_info id="Structure" order="1" sideWeight="0.50078005" side_tool="true" weight="0.17408586" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -481,7 +603,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,18 +633,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloSomeone.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/Painting.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloCount.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloWorld.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloPainting.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloLoop.java" />
-    <entry file="file://$PROJECT_DIR$/src/create_folders.sh" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloEveryone.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/D6_StairsUp.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/ChessBoard.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/TriangularGrid.java" />
-    <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloWorld2.java" />
     <entry file="file://$PROJECT_DIR$/src/week_1/examples/HelloWorld1.java" />
     <entry file="file://$PROJECT_DIR$/src/week_1/examples/SquaredGrid.java" />
     <entry file="file://$PROJECT_DIR$/src/week_1/examples/StairsDown.java" />
@@ -570,30 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -618,24 +704,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/OOP_2019_lib.jar!/oop/lib/Animation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/shot_player.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Movable.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Shot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,8 +724,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/shot_player.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="uml://JAVA/project">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>project</OriginalElement>
+          <nodes>
+            <node x="" y="">project.Killable</node>
+            <node x="" y="">project.Shot</node>
+            <node x="" y="">project.Player</node>
+            <node x="" y="">project.Enemy</node>
+            <node x="" y="">project.SpriteList</node>
+            <node x="" y="">project.Sprite</node>
+            <node x="" y="">project.Movable</node>
+            <node x="" y="">project.Actor</node>
+            <node x="" y="">project.Tester</node>
+            <node x="" y="">project.ShotPlayer</node>
+            <node x="" y="">project.ShotEnemy</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="170.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/OOP_2019_lib.jar!/oop/lib/Animation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Shot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Movable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/ShotPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/ShotEnemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Sprite.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -661,47 +847,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Mammal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/ShotPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Lactating.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Ovipar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Oviparus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/ShotEnemy.java">
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Moultable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Snake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Aquatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Dolphin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Platypus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/series.series_5.exercices.exo_2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>series.series_5.exercices.exo_2</OriginalElement>
+          <nodes>
+            <node x="224.85984848484847" y="337.0">series.series_5.exercices.exo_2.Platypus</node>
+            <node x="0.0" y="224.5">series.series_5.exercices.exo_2.Aquatic</node>
+            <node x="538.2234848484849" y="348.0">series.series_5.exercices.exo_2.Snake</node>
+            <node x="279.7234848484849" y="0.0">series.series_5.exercices.exo_2.Animal</node>
+            <node x="422.07575757575756" y="224.5">series.series_5.exercices.exo_2.Moultable</node>
+            <node x="605.5757575757575" y="56.0">series.series_5.exercices.exo_2.Ovipar</node>
+            <node x="151.0" y="213.0">series.series_5.exercices.exo_2.Mammal</node>
+            <node x="127.72348484848487" y="56.0">series.series_5.exercices.exo_2.Lactating</node>
+            <node x="7.109848484848499" y="348.0">series.series_5.exercices.exo_2.Dolphin</node>
+            <node x="577.0757575757575" y="213.0">series.series_5.exercices.exo_2.Oviparus</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="series.series_5.exercices.exo_2.Platypus" target="series.series_5.exercices.exo_2.Mammal">
+              <point x="0.0" y="-81.0" />
+              <point x="322.8598484848485" y="317.0" />
+              <point x="300.25" y="317.0" />
+              <point x="49.75" y="37.0" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Platypus" target="series.series_5.exercices.exo_2.Ovipar">
+              <point x="65.33333333333331" y="-81.0" />
+              <point x="388.19318181818176" y="317.0" />
+              <point x="411.57575757575756" y="317.0" />
+              <point x="411.57575757575756" y="193.0" />
+              <point x="645.5757575757575" y="193.0" />
+              <point x="-40.0" y="25.5" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Dolphin" target="series.series_5.exercices.exo_2.Mammal">
+              <point x="48.25" y="-70.0" />
+              <point x="151.8598484848485" y="317.0" />
+              <point x="200.75" y="317.0" />
+              <point x="-49.75" y="37.0" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Snake" target="series.series_5.exercices.exo_2.Oviparus">
+              <point x="45.5" y="-70.0" />
+              <point x="674.7234848484849" y="317.0" />
+              <point x="676.0757575757575" y="317.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Oviparus" target="series.series_5.exercices.exo_2.Animal">
+              <point x="-49.5" y="-37.0" />
+              <point x="626.5757575757575" y="183.0" />
+              <point x="421.4734848484849" y="183.0" />
+              <point x="47.25" y="81.5" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Platypus" target="series.series_5.exercices.exo_2.Aquatic">
+              <point x="-65.33333333333331" y="-81.0" />
+              <point x="257.5265151515151" y="307.0" />
+              <point x="98.25" y="307.0" />
+              <point x="32.75" y="25.5" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Dolphin" target="series.series_5.exercices.exo_2.Aquatic">
+              <point x="-48.25" y="-70.0" />
+              <point x="55.3598484848485" y="317.0" />
+              <point x="32.75" y="317.0" />
+              <point x="-32.75" y="25.5" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Mammal" target="series.series_5.exercices.exo_2.Lactating">
+              <point x="-49.75" y="-37.0" />
+              <point x="200.75" y="193.0" />
+              <point x="193.72348484848487" y="193.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Snake" target="series.series_5.exercices.exo_2.Moultable">
+              <point x="-45.5" y="-70.0" />
+              <point x="583.7234848484849" y="317.0" />
+              <point x="489.57575757575756" y="317.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Oviparus" target="series.series_5.exercices.exo_2.Ovipar">
+              <point x="49.5" y="-37.0" />
+              <point x="40.0" y="25.5" />
+            </edge>
+            <edge source="series.series_5.exercices.exo_2.Mammal" target="series.series_5.exercices.exo_2.Animal">
+              <point x="49.75" y="-37.0" />
+              <point x="300.25" y="193.0" />
+              <point x="326.9734848484849" y="193.0" />
+              <point x="-47.25" y="81.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="14.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
