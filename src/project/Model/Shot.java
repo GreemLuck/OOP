@@ -1,5 +1,4 @@
 package project.Model;
-import project.Model.Sprite;
 
 import java.awt.*;
 

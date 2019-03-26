@@ -1,7 +1,6 @@
 package project.Model;
 
 import project.Controller.Killable;
-import project.Model.Sprite;
 
 import java.awt.*;
 
