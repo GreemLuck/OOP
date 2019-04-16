@@ -1,0 +1,27 @@
+package model.shot;
+
+
+import view.Sprite;
+
+import java.awt.*;
+
+public abstract class Shot extends Sprite {
+
+    final String direction;
+    public final int damage;
+
+    //////////////////////////////////////////////////////////////////////
+    // CONSTRUCTOR
+    //////////////////////////////////////////////////////////////////////
+    Shot(Image img, int x, int y, String direction, int damage) {
+        super(img, x, y);
+        this.direction = direction;
+        this.damage = damage;
+    }
+
+    //////////////////////////////////////////////////////////////////////
+    // ABSTRACT
+    //////////////////////////////////////////////////////////////////////
+    abstract public void move();
+
+}
