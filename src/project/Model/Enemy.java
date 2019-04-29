@@ -7,17 +7,17 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-public class Enemy extends Sprite implements Shooter {
+public class Enemy extends Sprite implements Shooter, Hittable {
 
     final static public ImageIcon ENEMY_ICON = new ImageIcon(Enemy.class.getResource("/alien.png"));
-    final static String INITIAL_DIRECTION = "RIGHT";
+    final static Direction INITIAL_DIRECTION = Direction.RIGHT;
 
     static private int count;
     static private int fireProb = 5;
     static private Random random = new Random();
     static private int descentSpeed = 1;
 
-    private int hitPoints = 1;
+    private int hitPoints = 2;
     private boolean dead = false;
 
     //////////////////////////////////////////////////////////////////////
@@ -35,17 +35,17 @@ public class Enemy extends Sprite implements Shooter {
     }
 
     @Override
-    public void move(String direction) {
+    public void move(Direction direction) {
         int y = getY();
         int x = getX();
         switch (direction){
-            case "DOWN" :
+            case DOWN:
                 setY(y + descentSpeed);
                 break;
-            case "LEFT":
+            case LEFT:
                 setX(x - descentSpeed);
                 break;
-            case "RIGHT":
+            case RIGHT:
                 setX(x + descentSpeed);
                 break;
         }
@@ -54,13 +54,6 @@ public class Enemy extends Sprite implements Shooter {
     @Override
     public void update() {
         ;
-    }
-
-    public void gotHit(){
-        hitPoints--;
-        if(hitPoints <= 0){
-            dead = true;
-        }
     }
 
     public boolean isDead(){
@@ -79,11 +72,31 @@ public class Enemy extends Sprite implements Shooter {
         int x = getX() - Shot.SHOT_ICON.getIconWidth();
         int y = getY();
         Shot shot = new Shot(x, y);
-        shot.setDirection("DOWN");
+        shot.setDirection(Direction.DOWN);
 
         return shot;
     }
 
+    //////////////////////////////////////////////////////////////////////
+    // Hittable
+    //////////////////////////////////////////////////////////////////////\
+
+    @Override
+    public boolean getHit(Shot shot) {
+        if(this.checkCollision(shot)){
+            hitPoints--;
+            if(hitPoints <= 0){
+                die();
+            }
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void die() {
+        dead = true;
+    }
 
     //////////////////////////////////////////////////////////////////////
     // GETTERS AND SETTERS

@@ -21,7 +21,7 @@ public class SpaceInvaders extends MyAnimation {
     private SpaceInvaders(){;}
 
     ShotList shots = new ShotList();
-    EnemyList enemies = new EnemyList();
+    Group enemies = new Group();
     Player player = new Player(BOARD_WIDTH/2, BOARD_HEIGHT-Player.PLAYER_ICON.getIconHeight()*2);
 
     Board board = new Board(BOARD_HEIGHT, BOARD_WIDTH, enemies, shots, player);
@@ -37,6 +37,8 @@ public class SpaceInvaders extends MyAnimation {
     @Override
     protected void step() {
         super.step();
+
+        gameOver();
 
         if(enemies.isEmpty()){
             board.gameOver();
@@ -71,10 +73,10 @@ public class SpaceInvaders extends MyAnimation {
             public void keyPressed(KeyEvent e) {
                 switch (e.getKeyCode()){
                     case KeyEvent.VK_LEFT:
-                        player.move("LEFT");
+                        player.move(Direction.LEFT);
                         break;
                     case KeyEvent.VK_RIGHT:
-                        player.move("RIGHT");
+                        player.move(Direction.RIGHT);
                         break;
                     case KeyEvent.VK_SPACE:
                         if((System.currentTimeMillis() - player.getLastShot())>= player.getShotSpeed()) {
@@ -89,31 +91,16 @@ public class SpaceInvaders extends MyAnimation {
     }
 
     public void moveEnemies(){
+        // Step for the enmies
+        enemies.move(enemies.getDirection());
 
-        // Get X coordinates of all enemies
-        IntegerList xCoordinates = new IntegerList();
-        Enemy e;
-        for(int i = 0; (e = enemies.get(i)) != null; i++){
-            xCoordinates.add(e.getX());
-        }
-
-        // Step for the enemies
-        for(int i = 0; (e = enemies.get(i)) != null; i++){
-            e.move(e.getDirection());
-        }
-
-        // if the border is met, everybody goes down and direction is changed
-        if (xCoordinates.getMax() >= BOARD_WIDTH - enemies.get(0).getWidth()){
-            for(int i = 0; (e = enemies.get(i)) != null; i++){
-                e.setDirection("LEFT");
-                e.move("DOWN");
-            }
-        } else if (xCoordinates.getMin() <= 0){
-
-            for(int i = 0; (e = enemies.get(i)) != null; i++){
-                e.setDirection("RIGHT");
-                e.move("DOWN");
-            }
+        // If the border is met, everybody goes down and direction is changed
+        if(enemies.getMax() >= BOARD_WIDTH - enemies.getWidth()){
+            enemies.setDirection(Direction.LEFT);
+            enemies.move(Direction.DOWN);
+        } else if( enemies.getMin() <= 0){
+            enemies.setDirection(Direction.RIGHT);
+            enemies.move(Direction.DOWN);
         }
     }
 
@@ -131,14 +118,9 @@ public class SpaceInvaders extends MyAnimation {
                 continue;
             }
 
-            if(shot.getDirection().equals("UP")){
-
-                for(int j = 0; (e = enemies.get(j)) != null; j++){
-                    if(e.checkCollision(shot)){
-                        e.gotHit();
-                        shotsToRemove.add(shot);
-                        break;
-                    }
+            if(shot.getDirection() == Direction.UP){
+                if(enemies.getHit(shot)){
+                    shotsToRemove.add(shot);
                 }
             }
             // Out of bounds shots
@@ -153,15 +135,12 @@ public class SpaceInvaders extends MyAnimation {
         }
 
         // Check for dead enemies
-        for(int i = 0; (e = enemies.get(i)) != null; i++){
-            if(e.isDead()){
-                enemiesToRemove.add(e);
-            }
-        }
+        enemies.detectAndRemoveDeadEnemies();
+    }
 
-        // remove dead enemies
-        for(int i = 0; (e = enemiesToRemove.get(i)) != null; i++){
-            enemies.remove(e);
+    public void gameOver(){
+        if(enemies.isEmpty()){
+            System.exit(0);
         }
     }
 

@@ -30,5 +30,9 @@ public class ShotList extends SpriteList {
         return (Shot) super.get(pos);
     }
 
-
+    public void addAll(ShotList s){
+        for(int i = 0; s.get(i) != null; i++){
+            this.add(s.get(i));
+        }
+    }
 }

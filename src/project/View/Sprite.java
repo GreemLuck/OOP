@@ -2,6 +2,7 @@ package project.View;
 
 import oop.lib.Paintable;
 import oop.lib.Painting;
+import project.Model.Direction;
 import project.Model.Movable;
 
 import java.awt.*;
@@ -11,7 +12,7 @@ public abstract class Sprite implements Paintable, Movable {
     private int x;
     private int y;
     private int speed;
-    private String direction;
+    private Direction direction;
     private Image img;
 
     //////////////////////////////////////////////////////////////////////
@@ -26,7 +27,7 @@ public abstract class Sprite implements Paintable, Movable {
 
     abstract public void update();
 
-    public boolean checkCollision(Sprite sprite){
+    protected boolean checkCollision(Sprite sprite){
         return getBoundingBox().intersects(sprite.getBoundingBox());
     }
 
@@ -43,20 +44,20 @@ public abstract class Sprite implements Paintable, Movable {
     // MOVABLE
     //////////////////////////////////////////////////////////////////////
 
-    public void move(String direction){
+    public void move(Direction direction){
         int x = getX();
         int y = getY();
         switch (direction){
-            case "LEFT":
+            case LEFT:
                 x -= speed;
                 break;
-            case "RIGHT":
+            case RIGHT:
                 x += speed;
                 break;
-            case "DOWN":
+            case DOWN:
                 y += speed;
                 break;
-            case "UP":
+            case UP:
                 y -= speed;
                 break;
         }
@@ -102,11 +103,11 @@ public abstract class Sprite implements Paintable, Movable {
         this.speed = speed;
     }
 
-    public String getDirection() {
+    public Direction getDirection() {
         return direction;
     }
 
-    public void setDirection(String direction) {
+    public void setDirection(Direction direction) {
         this.direction = direction;
     }
 }

@@ -20,13 +20,13 @@ public class Shot extends Sprite {
     }
 
     @Override
-    public void move(String direction) {
+    public void move(Direction direction) {
         int y = getY();
         switch (direction){
-            case "UP" :
+            case UP :
                 setY(y - speed);
                 break;
-            case "DOWN":
+            case DOWN:
                 setY(y + speed);
                 break;
         }

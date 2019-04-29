@@ -1,6 +1,6 @@
 package project.Model;
 
 public interface Hittable {
-    void getShot();
+    boolean getHit(Shot shot);
     void die();
 }
