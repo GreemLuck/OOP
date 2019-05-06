@@ -15,6 +15,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/series/series_6" />
       <excludeFolder url="file://$MODULE_DIR$/src/series/series_7" />
       <excludeFolder url="file://$MODULE_DIR$/src/series/series_8" />
+      <excludeFolder url="file://$MODULE_DIR$/src/series/series_9" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
