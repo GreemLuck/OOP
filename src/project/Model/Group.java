@@ -3,7 +3,10 @@ package project.Model;
 import oop.lib.Paintable;
 import oop.lib.Painting;
 
-public class Group<T extends  Enemy> extends EnemyList implements Movable, Shooter, Hittable, Paintable {
+import java.util.Collections;
+import java.util.ListIterator;
+
+public class Group<T extends  Enemy> extends MyLinkedList<Enemy> implements Movable, Shooter, Hittable, Paintable {
 
     private static Direction direction = Direction.LEFT;
     private static boolean dead = false;
@@ -17,16 +20,17 @@ public class Group<T extends  Enemy> extends EnemyList implements Movable, Shoot
     }
 
     public void detectAndRemoveDeadEnemies(){
-        EnemyList enemiesToRemove = new EnemyList();
-        Enemy e;
-        for(int i = 0; (e = this.get(i)) != null; i++){
+        MyLinkedList<Enemy> enemiesToRemove = new MyLinkedList<>();
+        for(Enemy e: this){
             if(e.isDead()){
                 enemiesToRemove.add(e);
             }
         }
 
-        for(int i = 0; enemiesToRemove.get(i) != null; i++){
-            remove(enemiesToRemove.get(i));
+        for(Enemy e: enemiesToRemove){
+            // remove the enemy and accelerate the group's descent.
+            remove(e);
+            Enemy.setDescentSpeed(Enemy.getDescentSpeed() + 0.3);
         }
     }
 
@@ -45,8 +49,7 @@ public class Group<T extends  Enemy> extends EnemyList implements Movable, Shoot
 
     @Override
     public boolean getHit(Shot shot) {
-        Enemy e;
-        for(int i = 0; (e = this.get(i)) != null; i++){
+        for(Enemy e: this){
             if(e.getHit(shot)){
                 return true;
             }
@@ -65,9 +68,8 @@ public class Group<T extends  Enemy> extends EnemyList implements Movable, Shoot
 
     @Override
     public void move(Direction direction) {
-        Enemy e;
-        for(int i = 0; (e = this.get(i)) != null; i++){
-            this.get(i).move(direction);
+        for(Enemy e: this){
+            e.move(direction);
         }
     }
 
@@ -85,21 +87,19 @@ public class Group<T extends  Enemy> extends EnemyList implements Movable, Shoot
     //////////////////////////////////////////////////////////////////////
 
     public int getMax(){
-        IntegerList xCoordinates = new IntegerList();
-        Enemy e;
-        for(int i = 0; (e = this.get(i)) != null; i++){
+        MyLinkedList<Integer> xCoordinates = new MyLinkedList<>();
+        for(Enemy e : this){
             xCoordinates.add(e.getX());
         }
-        return xCoordinates.getMax();
+        return Collections.max(xCoordinates);
     }
 
     public int getMin(){
-        IntegerList xCoordinates = new IntegerList();
-        Enemy e;
-        for(int i = 0; (e = this.get(i)) != null; i++){
+        MyLinkedList<Integer> xCoordinates = new MyLinkedList<>();
+        for(Enemy e: this){
             xCoordinates.add(e.getX());
         }
-        return xCoordinates.getMin();
+        return Collections.min(xCoordinates);
     }
 
     public  int getWidth(){

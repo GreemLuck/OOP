@@ -13,9 +13,9 @@ public class Enemy extends Sprite implements Shooter, Hittable {
     final static Direction INITIAL_DIRECTION = Direction.RIGHT;
 
     static private int count;
-    static private int fireProb = 5;
+    static private int fireProb = 1;
     static private Random random = new Random();
-    static private int descentSpeed = 1;
+    static private double descentSpeed = 1;
 
     private int hitPoints = 2;
     private boolean dead = false;
@@ -27,7 +27,7 @@ public class Enemy extends Sprite implements Shooter, Hittable {
     public Enemy (int x, int y){
         super(ENEMY_ICON.getImage(), x, y);
         setDirection(INITIAL_DIRECTION);
-        setSpeed(descentSpeed);
+        setSpeed((int)descentSpeed);
     }
 
     public Enemy clone(){
@@ -40,13 +40,13 @@ public class Enemy extends Sprite implements Shooter, Hittable {
         int x = getX();
         switch (direction){
             case DOWN:
-                setY(y + descentSpeed);
+                setY(y + (int)descentSpeed);
                 break;
             case LEFT:
-                setX(x - descentSpeed);
+                setX(x - (int)descentSpeed);
                 break;
             case RIGHT:
-                setX(x + descentSpeed);
+                setX(x + (int)descentSpeed);
                 break;
         }
     }
@@ -118,11 +118,11 @@ public class Enemy extends Sprite implements Shooter, Hittable {
         Enemy.fireProb = fireProb;
     }
 
-    public static int getDescentSpeed() {
+    public static double getDescentSpeed() {
         return descentSpeed;
     }
 
-    public static void setDescentSpeed(int descentSpeed) {
+    public static void setDescentSpeed(double descentSpeed) {
         Enemy.descentSpeed = descentSpeed;
     }
 }

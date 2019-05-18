@@ -22,7 +22,7 @@ public abstract class Sprite implements Paintable, Movable {
     public Sprite(Image img, int x, int y){
         this.x = x;
         this.y = y;
-        this.img = img.getScaledInstance(50,50,1);
+        this.img = img;
     }
 
     abstract public void update();

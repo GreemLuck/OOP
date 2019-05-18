@@ -16,25 +16,34 @@ public class Box<F, S> {
     }
 
     void moveItemsFrom(Box<F, S> box){
+        System.out.print("Moving ... \n");
+
         this.first = box.first;
         this.second = box.second;
     }
 
     void swapItemsWith(Box<F, S> box){
-        Box<F, S> temp = box;
+        System.out.print("Swapping ... \n");
+
+        F temp1 = box.first;
+        S temp2 = box.second;
 
         box.first = this.first;
         box.second = this.second;
 
-        this.first = temp.first;
-        this.second = temp.second;
+        this.first = temp1;
+        this.second = temp2;
     }
 
     <T> void moveFirstToSecond(Box<T, T> box){
+        System.out.print("Moving ... \n");
+
         box.second = box.first;
     }
 
     <T> void swapItems(Box<T, T> box){
+        System.out.print("Swapping ... \n");
+
         T temp = box.first;
         box.first = box.second;
         box.second = temp;

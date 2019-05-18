@@ -15,7 +15,7 @@ public class Player extends Sprite implements Shooter, Hittable{
     private int shotSpeed = 500;
     private long lastShot;
     private boolean dead = false;
-    private int hitPoints = 100;
+    private int hitPoints = 3;
 
     //////////////////////////////////////////////////////////////////////
     // CONSTRUCTOR
@@ -29,13 +29,18 @@ public class Player extends Sprite implements Shooter, Hittable{
 
     @Override
     public void move(Direction direction) {
+        if(direction == null){
+            return;
+        }
         int x = getX();
         switch (direction){
             case LEFT:
-                if(x >= 0) setX(x - getSpeed());
+                if(x > 0) setX(x - getSpeed());
                 break;
             case RIGHT:
                 if(x <= SpaceInvaders.BOARD_WIDTH - getWidth())setX(x + getSpeed());
+                break;
+            default:
                 break;
         }
     }
@@ -50,7 +55,7 @@ public class Player extends Sprite implements Shooter, Hittable{
     //////////////////////////////////////////////////////////////////////\
 
     public Shot shoot (){
-        int x = getX() - Shot.SHOT_ICON.getIconWidth();
+        int x = getX() + PLAYER_ICON.getIconWidth()/2 - 4;
         int y = getY();
         Shot shot = new Shot(x, y);
         shot.setDirection(Direction.UP);
@@ -105,5 +110,21 @@ public class Player extends Sprite implements Shooter, Hittable{
 
     public void setLastShot(long lastShot) {
         this.lastShot = lastShot;
+    }
+
+    public boolean isDead() {
+        return dead;
+    }
+
+    public void setDead(boolean dead) {
+        this.dead = dead;
+    }
+
+    public int getHitPoints() {
+        return hitPoints;
+    }
+
+    public void setHitPoints(int hitPoints) {
+        this.hitPoints = hitPoints;
     }
 }

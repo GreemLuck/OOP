@@ -7,15 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f84bf2f6-b68a-4aff-a3b3-04800198dc39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/project/Model/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Model/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/Model/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP_19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/core/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/core/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Controller/SpaceInvaders$KeyController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Controller/SpaceInvaders$KeyController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Controller/SpaceInvaders$KeyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Controller/SpaceInvaders$KeyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Controller/SpaceInvaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Controller/SpaceInvaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Player$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Player$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/Model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/View/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/View/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/project/View/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_19/project/View/Sprite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_10/OOP-10-Genericite-Approf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_10/OOP_serie_10_advanced_genericity (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_10/debugging (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_10/exercices/exo_2/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_19/series/series_10/exercices/exo_2/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/project.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Controller/SpaceInvaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Controller/SpaceInvaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Model/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Model/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Model/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Model/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Model/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Model/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Model/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Model/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/Model/Shot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/Model/Shot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/View/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/View/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/View/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/View/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,17 +50,17 @@
     <session id="686217904">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.11" value="5" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,47 +69,108 @@
           <entry key="class" value="19" />
           <entry key="exo_2" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="260" />
-          <entry key="png" value="10" />
+          <entry key="java" value="286" />
+          <entry key="png" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="19" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="Image" value="10" />
-          <entry key="JAVA" value="260" />
+          <entry key="Image" value="14" />
+          <entry key="JAVA" value="286" />
           <entry key="UML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="30666" />
+          <entry key="java" value="35203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30666" />
+          <entry key="JAVA" value="35203" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4194237">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/project/Model/MyLinkedList.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/project/Controller/SpaceInvaders.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1064">
-                  <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
                   <folding>
-                    <element signature="e#1171#1172#0" expanded="true" />
-                    <element signature="e#1198#1199#0" expanded="true" />
-                    <element signature="e#1311#1312#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/project/Model/Player.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2808#2809#0" expanded="true" />
+                    <element signature="e#2835#2836#0" expanded="true" />
+                    <element signature="e#2876#2877#0" expanded="true" />
+                    <element signature="e#2908#2909#0" expanded="true" />
+                    <element signature="e#2941#2942#0" expanded="true" />
+                    <element signature="e#2973#2974#0" expanded="true" />
+                    <element signature="e#3020#3021#0" expanded="true" />
+                    <element signature="e#3062#3063#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/project/Model/Enemy.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/project/View/Board.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1105">
+                  <caret line="71" column="88" selection-start-line="71" selection-start-column="88" selection-end-line="71" selection-end-column="88" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2277#2278#0" expanded="true" />
+                    <element signature="e#2302#2303#0" expanded="true" />
+                    <element signature="e#2569#2570#0" expanded="true" />
+                    <element signature="e#2598#2599#0" expanded="true" />
+                    <element signature="e#2639#2640#0" expanded="true" />
+                    <element signature="e#2675#2676#0" expanded="true" />
+                    <element signature="e#2718#2719#0" expanded="true" />
+                    <element signature="e#2746#2747#0" expanded="true" />
+                    <element signature="e#2785#2786#0" expanded="true" />
+                    <element signature="e#2819#2820#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/project/Controller/MyAnimation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="595">
+                  <caret line="39" selection-start-line="39" selection-end-line="39" />
                 </state>
               </provider>
             </entry>
@@ -96,24 +179,58 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/project/Model/Iterator.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/project/Model/Shot.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="792">
-                  <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+                <state relative-caret-position="289">
+                  <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/project/Model/Group.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
                   <folding>
-                    <element signature="e#1901#1902#0" expanded="true" />
-                    <element signature="e#1940#1941#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/project/Model/Node.java">
+            <entry file="file://$PROJECT_DIR$/src/project/View/Sprite.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+                <state relative-caret-position="302">
+                  <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="14654">
+                  <caret line="908" selection-start-line="908" selection-end-line="908" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/project/View/Board.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1326">
+                  <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1508#1509#0" expanded="true" />
+                    <element signature="e#1540#1541#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -142,7 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Ovipar.java" />
         <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Oviparus.java" />
         <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Moultable.java" />
         <option value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2/Snake.java" />
@@ -158,7 +274,6 @@
         <option value="$PROJECT_DIR$/src/project/Model/Sprite.java" />
         <option value="$PROJECT_DIR$/src/project/Controller/EnemyList.java" />
         <option value="$PROJECT_DIR$/src/project/Controller/ShotList.java" />
-        <option value="$PROJECT_DIR$/src/project/Controller/Tester.java" />
         <option value="$PROJECT_DIR$/src/project/Controller/Player.java" />
         <option value="$PROJECT_DIR$/src/project/Controller/SpriteList.java" />
         <option value="$PROJECT_DIR$/src/mvc/KeyController.java" />
@@ -172,27 +287,29 @@
         <option value="$PROJECT_DIR$/src/series/series_7/MouseEventDemo.java" />
         <option value="$PROJECT_DIR$/src/series/series_7/KeyEventDemo.java" />
         <option value="$PROJECT_DIR$/src/project/Model/SpriteList.java" />
-        <option value="$PROJECT_DIR$/src/project/View/Board.java" />
         <option value="$PROJECT_DIR$/src/project/Model/Direction.java" />
         <option value="$PROJECT_DIR$/src/project/Model/Movable.java" />
-        <option value="$PROJECT_DIR$/src/project/Model/Shot.java" />
-        <option value="$PROJECT_DIR$/src/project/View/Sprite.java" />
         <option value="$PROJECT_DIR$/src/project/Model/Hittable.java" />
-        <option value="$PROJECT_DIR$/src/project/Model/Player.java" />
-        <option value="$PROJECT_DIR$/src/project/Model/Enemy.java" />
         <option value="$PROJECT_DIR$/src/project/Model/ShotList.java" />
-        <option value="$PROJECT_DIR$/src/project/Model/Group.java" />
         <option value="$PROJECT_DIR$/src/series/series_9/exercices/exo_3/Circle.java" />
         <option value="$PROJECT_DIR$/src/series/series_9/exercices/exo_3/Point.java" />
         <option value="$PROJECT_DIR$/src/series/series_9/exercices/exo_3/Main.java" />
         <option value="$PROJECT_DIR$/src/series/series_9/exercices/exo_2/Main.java" />
         <option value="$PROJECT_DIR$/src/series/series_9/exercices/exo_2/Stack.java" />
-        <option value="$PROJECT_DIR$/src/project/Controller/SpaceInvaders.java" />
+        <option value="$PROJECT_DIR$/src/project/Controller/Tester.java" />
+        <option value="$PROJECT_DIR$/src/project/Model/Node.java" />
+        <option value="$PROJECT_DIR$/src/project/Model/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/project/Model/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Box.java" />
         <option value="$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Main.java" />
-        <option value="$PROJECT_DIR$/src/project/Model/Node.java" />
-        <option value="$PROJECT_DIR$/src/project/Model/MyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/project/Model/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/project/View/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/project/Model/Shot.java" />
+        <option value="$PROJECT_DIR$/src/series/series_11/core/Main.java" />
+        <option value="$PROJECT_DIR$/src/project/View/Board.java" />
+        <option value="$PROJECT_DIR$/src/project/Controller/SpaceInvaders.java" />
+        <option value="$PROJECT_DIR$/src/project/Model/Player.java" />
+        <option value="$PROJECT_DIR$/src/project/Model/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/project/Model/Group.java" />
       </list>
     </option>
   </component>
@@ -264,12 +381,33 @@
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="series" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,24 +415,7 @@
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="series" type="462c0819:PsiDirectoryNode" />
-              <item name="series_10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="series" type="462c0819:PsiDirectoryNode" />
-              <item name="series_10" type="462c0819:PsiDirectoryNode" />
-              <item name="exercices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="series" type="462c0819:PsiDirectoryNode" />
-              <item name="series_10" type="462c0819:PsiDirectoryNode" />
-              <item name="exercices" type="462c0819:PsiDirectoryNode" />
-              <item name="exo_2" type="462c0819:PsiDirectoryNode" />
+              <item name="series_11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOP" type="b2602c69:ProjectViewProjectNode" />
@@ -309,7 +430,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557156354469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558203736759" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/series/series_5/exercices/exo_2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -342,20 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="KeyEventDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="core.KeyEventDemo" />
-      <module name="OOP_19" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SpaceInvaders">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="series.series_9.exercices.exo_2.Main" />
       <module name="OOP_19" />
@@ -375,6 +483,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="series.series_10.exercices.exo_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.Main" />
+      <module name="OOP_19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,18 +531,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SpaceInvaders" />
-      <item itemvalue="Application.KeyEventDemo" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpaceInvaders" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SpaceInvaders" />
-        <item itemvalue="Application.KeyEventDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -469,18 +590,23 @@
       <workItem from="1556622945613" duration="1055000" />
       <workItem from="1556628047465" duration="408000" />
       <workItem from="1557144913606" duration="2401000" />
-      <workItem from="1557148206874" duration="5877000" />
+      <workItem from="1557148206874" duration="14267000" />
+      <workItem from="1557166457602" duration="400000" />
+      <workItem from="1557229752824" duration="4960000" />
+      <workItem from="1557750746480" duration="3585000" />
+      <workItem from="1557839160353" duration="1867000" />
+      <workItem from="1558196012962" duration="5914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127431000" />
+    <option name="totallyTimeSpent" value="152547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.26311606" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921995" visible="true" weight="0.13950716" />
       <window_info id="Structure" order="1" sideWeight="0.50078005" side_tool="true" weight="0.17408586" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +615,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,44 +644,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((Node)((Node)((Node)((Iterator)this).currentNode).previous).previous).previous" custom="project.Model.Node,project.Model.Iterator" />
+        <watch expression="shots" language="JAVA" />
+        <watch expression="((Node)((Node)((Node)((Iterator)this).currentNode).previous).previous).previous" custom="project.Model.Node,project.Model.Iterator" />
+        <watch expression="((FilteredImageSource)((ToolkitImage)shots.get(0).img).source).src" custom="java.awt.image.FilteredImageSource,sun.awt.image.ToolkitImage" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/mvc/ButtonController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mvc/AbstractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo_projet/src/Tester.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo_projet/src/view/Representation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/OOP_2019_lib.jar!/oop/lib/Display.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/OOP_2019_lib.jar!/oop/lib/Painting.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo_projet/images/shot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/demo_projet/images/player.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -595,13 +694,6 @@
     <entry file="file://$PROJECT_DIR$/OOP_19.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Controller/MyAnimation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/series/series_7/MouseEventDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/series/series_7/KeyEventDemo.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
@@ -632,24 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/Enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Model/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -667,24 +745,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/View/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Model/SpriteList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/IntegerList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -709,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Model/ShotList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -737,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/View/Sprite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/series/series_9/exercices/exo_2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -751,69 +801,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/Shot.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Controller/Tester.java" />
+    <entry file="file://$PROJECT_DIR$/src/project/image/alien.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/image/shot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Model/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Model/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Model/IntegerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Model/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Box.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="629">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/image/bomb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14654">
+          <caret line="908" selection-start-line="908" selection-end-line="908" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/series/series_11/core/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/View/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Controller/MyAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/View/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/project/Controller/SpaceInvaders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="255">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/series/series_10/exercices/exo_2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Model/Shot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        <state relative-caret-position="425">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
           <folding>
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
+            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2973#2974#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+            <element signature="e#3062#3063#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project/Model/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/project/Model/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project/Model/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

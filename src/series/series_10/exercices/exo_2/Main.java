@@ -3,28 +3,58 @@ package series.series_10.exercices.exo_2;
 public class Main {
     public static void main(String[] args) {
 
-        // Some variables of different types
-        int int_a = 10, int_b = 20, int_c = 30, int_d =100;
-        double double_a = 0.1, double_b = 0.2, double_c = 0.5;
-        String string_a = "This is string a",
-                string_b = "This is string b",
-                string_c = "This is string c";
-
-
-        // Creation of boxes
-        Box boxInt = new Box(int_a, int_b);
-        Box boxDouble = new Box(double_a, double_b);
-        Box boxStrDouble = new Box(string_a, double_c);
-        Box boxStringInt = new Box(string_b, int_c);
-        Box boxStringInt2 = new Box(string_c, int_d);
 
         // Test of moveFirstTo
+        Box<String, Integer> box1 = new Box<>("Sentece A", 12);
+        Box<String, Integer> box2 = new Box<>("Sentence B", 23);
+
         System.out.print("Test of moveFirstTo \n");
-        boxStringInt.display("Box 1");
-        boxStringInt2.display("Box 2");
-        boxStringInt.moveFirstTo(boxStringInt2);
-        boxStringInt.display("Box 1");
-        boxStringInt2.display("Box 2");
+        box1.display("Box 1");
+        box2.display("Box 2");
+        box1.moveFirstTo(box2);
+        box1.display("Box 1");
+        box2.display("Box 2");
+        System.out.print("\n \n");
+
+        // Test of moveItemsFrom
+        box2.first = "Sentence B";
+
+        System.out.print("Test of moveItemsFrom \n");
+        box1.display("Box 1");
+        box2.display("Box 2");
+        box1.moveItemsFrom(box2);
+        box1.display("Box 1");
+        box2.display("Box 2");
+        System.out.print("\n \n");
+
+        // Test of swapItemsWith
+        box1.first = "Sentence A";
+        box1.second = 12;
+
+        System.out.print("Test of swapItemsWith \n");
+        box1.display("Box 1");
+        box2.display("Box 2");
+        box1.swapItemsWith(box2);
+        box1.display("Box 1");
+        box2.display("Box 2");
+        System.out.print("\n \n");
+
+        // Test of  moveFirstToSecond
+        Box<Integer, Integer> box3 = new Box<>(12, 67);
+
+        System.out.print("Test of moveFirstToSecond \n");
+        box3.display("Box");
+        box3.moveFirstToSecond(box3);
+        box3.display("Box");
+        System.out.print("\n \n");
+
+        // Test of swapItems
+        box3.second = 56;
+
+        System.out.print("Test of swapItems \n");
+        box3.display("Box");
+        box3.swapItems(box3);
+        box3.display("Box");
         System.out.print("\n \n");
 
     }

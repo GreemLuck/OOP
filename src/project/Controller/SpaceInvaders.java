@@ -8,11 +8,12 @@ import javax.swing.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.LinkedList;
 
 public class SpaceInvaders extends MyAnimation {
 
-    final static public int BOARD_WIDTH = 500;
-    final static public int BOARD_HEIGHT = 500;
+    final static public int BOARD_WIDTH = 800;
+    final static public int BOARD_HEIGHT = 800;
 
     public static void main(String[] args) {
         new SpaceInvaders().launch(true);
@@ -20,9 +21,9 @@ public class SpaceInvaders extends MyAnimation {
 
     private SpaceInvaders(){;}
 
-    ShotList shots = new ShotList();
-    Group enemies = new Group();
-    Player player = new Player(BOARD_WIDTH/2, BOARD_HEIGHT-Player.PLAYER_ICON.getIconHeight()*2);
+    MyLinkedList<Shot> shots = new MyLinkedList<Shot>();
+    Group<Enemy> enemies = new Group<>();
+    Player player = new Player(BOARD_WIDTH/2, BOARD_HEIGHT-(Player.PLAYER_ICON.getIconHeight() +10 )*2);
 
     Board board = new Board(BOARD_HEIGHT, BOARD_WIDTH, enemies, shots, player);
 
@@ -40,21 +41,24 @@ public class SpaceInvaders extends MyAnimation {
 
         gameOver();
 
-        if(enemies.isEmpty()){
-            board.gameOver();
-        }
-
         // Updating the ShotList
-        for(int i = 0; shots.get(i) != null; i++){
-            shots.get(i).update();
+        for(Shot s: shots){
+            s.update();
         }
 
         // Updating the EnemyList
-        for(int i = 0; enemies.get(i) != null; i++){
-            Shot s = enemies.get(i).shoot();
-            if(s != null) shots.addShot(s);
+        for(Enemy e: enemies){
+            Shot s = e.shoot();
+            if(s != null) shots.add(s);
         }
-        moveEnemies();
+
+        try {
+            moveEnemies();
+        } catch (NullPointerException e){
+            board.gameOver("WIN");
+        }
+
+        player.move(player.getDirection());
         resolveShotsCollision();
     }
 
@@ -73,10 +77,10 @@ public class SpaceInvaders extends MyAnimation {
             public void keyPressed(KeyEvent e) {
                 switch (e.getKeyCode()){
                     case KeyEvent.VK_LEFT:
-                        player.move(Direction.LEFT);
+                        player.setDirection(Direction.LEFT);
                         break;
                     case KeyEvent.VK_RIGHT:
-                        player.move(Direction.RIGHT);
+                        player.setDirection(Direction.RIGHT);
                         break;
                     case KeyEvent.VK_SPACE:
                         if((System.currentTimeMillis() - player.getLastShot())>= player.getShotSpeed()) {
@@ -87,11 +91,25 @@ public class SpaceInvaders extends MyAnimation {
                 }
             }
 
+            public void keyReleased(KeyEvent e) {
+                switch (e.getKeyCode()){
+                    case KeyEvent.VK_LEFT:
+                        if(player.getDirection() == Direction.LEFT){
+                            player.setDirection(Direction.UP);
+                        }
+                        break;
+                    case KeyEvent.VK_RIGHT:
+                        if(player.getDirection() == Direction.RIGHT){
+                            player.setDirection(Direction.UP);
+                        }
+                }
+            }
+
         };
     }
 
     public void moveEnemies(){
-        // Step for the enmies
+        // Step for the enemies
         enemies.move(enemies.getDirection());
 
         // If the border is met, everybody goes down and direction is changed
@@ -105,24 +123,28 @@ public class SpaceInvaders extends MyAnimation {
     }
 
     public void resolveShotsCollision(){
-        ShotList shotsToRemove = new ShotList();
-        EnemyList enemiesToRemove = new EnemyList();
-
-        Enemy e;
-        Shot shot;
+        MyLinkedList<Shot> shotsToRemove = new MyLinkedList<>();
 
         // Check for damage
-        for(int i = 0; (shot = shots.get(i)) != null; i++){
-            // Check if enemies are hit
+        for(Shot shot: shots){
+
             if(shot == null){
                 continue;
             }
-
+            // Check if enemies are hit
             if(shot.getDirection() == Direction.UP){
                 if(enemies.getHit(shot)){
                     shotsToRemove.add(shot);
                 }
             }
+
+            // Check if player is hit
+            if(shot.getDirection() == Direction.DOWN){
+                if(player.getHit(shot)){
+                    shotsToRemove.add(shot);
+                }
+            }
+
             // Out of bounds shots
             if(shot.getY() < 0 || shot.getY() > BOARD_HEIGHT){
                 shotsToRemove.add(shot);
@@ -130,7 +152,7 @@ public class SpaceInvaders extends MyAnimation {
         }
 
         // remove all shots
-        for(int i = 0; (shot = shotsToRemove.get(i)) != null; i++){
+        for(Shot shot: shotsToRemove){
             shots.remove(shot);
         }
 
@@ -139,8 +161,17 @@ public class SpaceInvaders extends MyAnimation {
     }
 
     public void gameOver(){
-        if(enemies.isEmpty()){
-            System.exit(0);
+
+        // Check if enemies crossed the losing line
+        for(Enemy e: enemies){
+            if(e.getY() > BOARD_HEIGHT - 200){
+                board.gameOver("LOSE");
+            }
+        }
+
+        // Check player hitpoints
+        if(player.isDead()){
+            board.gameOver("LOSE");
         }
     }
 
